@@ -12,6 +12,25 @@ function toggleLanguage(language) {
     updateActiveFlag();
 }
 
+function adjustTextSize() {
+            const header = document.querySelector('header');
+            const responsiveText = document.getElementById('responsiveText');
+            const screenWidth = window.innerWidth;
+
+            // Adjust font size based on screen width
+            if (screenWidth <= 280) {
+                responsiveText.style.fontSize = '16px';
+            } else if (screenWidth <= 653) {
+                responsiveText.style.fontSize = '24px';
+            } else {
+                responsiveText.style.fontSize = '32px';
+            }
+        }
+
+        // Initial adjustment and listen for window resize
+        adjustTextSize();
+        window.addEventListener('resize', adjustTextSize);
+
 function updateActiveFlag() {
     if (currentLanguage === 'es') {
 		document.getElementById('spVer').style.display ='block';
@@ -20,6 +39,12 @@ function updateActiveFlag() {
 		document.getElementById('enVerA').style.display ='none';
 		document.getElementById('spVerC').style.display ='block';
 		document.getElementById('enVerC').style.display ='none';
+		document.getElementById('spVerPF').style.display ='block';
+		document.getElementById('enVerPF').style.display ='none';
+		document.getElementById('spVerPT').style.display ='block';
+		document.getElementById('enVerPT').style.display ='none';
+		document.getElementById('spVerPM').style.display ='block';
+		document.getElementById('enVerPM').style.display ='none';
         esFlag.style.width = '45px';
 		ukFlag.style.width = '40px';
     } else {
@@ -29,6 +54,12 @@ function updateActiveFlag() {
 		document.getElementById('spVerA').style.display ='none';
 		document.getElementById('enVerC').style.display ='block';
 		document.getElementById('spVerC').style.display ='none';
+		document.getElementById('enVerPF').style.display ='block';
+		document.getElementById('spVerPF').style.display ='none';
+		document.getElementById('enVerPT').style.display ='block';
+		document.getElementById('spVerPT').style.display ='none';
+		document.getElementById('enVerPM').style.display ='block';
+		document.getElementById('spVerPM').style.display ='none';
         ukFlag.style.width = '45px';
 		esFlag.style.width = '40px'
     }

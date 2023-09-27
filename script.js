@@ -12,6 +12,8 @@ function toggleLanguage(language) {
     updateActiveFlag();
 }
 
+
+
 function updateActiveFlag() {
     if (currentLanguage === 'es') {
 		document.getElementById('spVer').style.display ='block';

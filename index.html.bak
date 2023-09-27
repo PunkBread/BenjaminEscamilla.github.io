@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id = 'enVer'>
-        <nav>
+        <nav id="responsiveText">
             <div class="container">
                 <h1>Benjamin Escamilla Rivas</h1>
                 <ul>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 	<header id = 'spVer'>
-        <nav>
+        <nav id="responsiveText">
 			<div class="container" >
                 <h1>Benjamin Escamilla Rivas</h1>
                 <ul>
@@ -122,8 +122,8 @@
 						<img class="carImg" src="assets/graficos.png" alt="Image 1">
 					</div>
 				</div>
-                <p id = 'enVerPM'>Description of Project 2.</p>
-                <p id = 'spVerPM'>Descripción</p>
+                <p id = 'enVerPM'>DigitLoan UNAM - DGTIC Mascarones is a digital platform created to revolutionize and streamline the process of lending computers to students at the National Autonomous University of Mexico (UNAM), specifically at the DGTIC Mascarones campus.</p>
+                <p id = 'spVerPM'>DigitLoan UNAM - DGTIC Mascarones es una plataforma digital creada para revolucionar y simplificar el proceso de préstamo de computadoras a estudiantes en la Universidad Nacional Autónoma de México (UNAM), específicamente en el campus de DGTIC Mascarones.</p>
             </div>
         </div>
 	
