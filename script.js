@@ -28,6 +28,8 @@ function updateActiveFlag() {
 		document.getElementById('enVerPT').style.display ='none';
 		document.getElementById('spVerPM').style.display ='block';
 		document.getElementById('enVerPM').style.display ='none';
+		document.getElementById('spVerPP').style.display ='block';
+		document.getElementById('enVerPP').style.display ='none';
         esFlag.style.width = '45px';
 		ukFlag.style.width = '40px';
     } else {
@@ -43,6 +45,8 @@ function updateActiveFlag() {
 		document.getElementById('spVerPT').style.display ='none';
 		document.getElementById('enVerPM').style.display ='block';
 		document.getElementById('spVerPM').style.display ='none';
+		document.getElementById('spVerPP').style.display ='none';
+		document.getElementById('enVerPP').style.display ='block';
         ukFlag.style.width = '45px';
 		esFlag.style.width = '40px'
     }

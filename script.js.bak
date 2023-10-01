@@ -12,24 +12,7 @@ function toggleLanguage(language) {
     updateActiveFlag();
 }
 
-function adjustTextSize() {
-            const header = document.querySelector('header');
-            const responsiveText = document.getElementById('responsiveText');
-            const screenWidth = window.innerWidth;
 
-            // Adjust font size based on screen width
-            if (screenWidth <= 280) {
-                responsiveText.style.fontSize = '16px';
-            } else if (screenWidth <= 653) {
-                responsiveText.style.fontSize = '24px';
-            } else {
-                responsiveText.style.fontSize = '32px';
-            }
-        }
-
-        // Initial adjustment and listen for window resize
-        adjustTextSize();
-        window.addEventListener('resize', adjustTextSize);
 
 function updateActiveFlag() {
     if (currentLanguage === 'es') {

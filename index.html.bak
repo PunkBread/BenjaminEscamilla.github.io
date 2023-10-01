@@ -12,7 +12,7 @@
 </head>
 <body>
     <header id = 'enVer'>
-        <nav id="responsiveText">
+        <nav>
             <div class="container">
                 <h1>Benjamin Escamilla Rivas</h1>
                 <ul>
@@ -24,7 +24,7 @@
         </nav>
     </header>
 	<header id = 'spVer'>
-        <nav id="responsiveText">
+        <nav>
 			<div class="container" >
                 <h1>Benjamin Escamilla Rivas</h1>
                 <ul>
